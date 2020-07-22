@@ -1,12 +1,15 @@
 {
-  "name": "react-router-july17",
+  "name": "react-router-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Created on: July 17, 2020",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@material-ui/core": "4.11.0",
+    "node-sass": "4.14.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
+    "react-router-dom": "5.2.0",
     "react-scripts": "3.0.1"
   },
   "devDependencies": {

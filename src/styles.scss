@@ -1,0 +1,60 @@
+$primaryText:#006a71;
+$primaryBG:#ffffdd;
+$secondaryBG:#c9e9ec;
+$suppBG: #ccf0c4;
+$supp2BG:#ffdecf;
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+nav{
+  background-color: $primaryBG;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 15vh;
+  margin-bottom:0;
+
+  ul{
+    font-size: 1.1rem;
+    width:50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a:-webkit-any-link{
+      text-decoration: none;
+    }
+  }
+}
+
+.home {
+  h1{
+    margin-top:0;
+  }
+  background-color: $secondaryBG;
+  padding-top: 20px;
+  height:85vh;
+}
+
+.products {
+  h1{
+    margin-top:0;
+  }
+  background-color: $suppBG;
+  padding-top: 20px;
+  height:85vh;
+}
+
+.cart {
+  h1{
+    margin-top:0;
+  }
+  background-color: $supp2BG;
+  padding-top: 20px;
+  height:85vh;
+}
+
